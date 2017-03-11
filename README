@@ -1,0 +1,8 @@
+Linguagem utilizada no desenvolvimento: JAVA
+IDE utilizada: NetBeans
+Sistema operacional: Linux Mint Cinamon
+
+Passo a passo:
+Abra o NetBeans, use a opção importar projeto especificando o projeto dentro desse arquivo zip (DeveloperTestLacunaS)
+
+Construa e execute o programa, a função main se encontra em DeveloperTest
