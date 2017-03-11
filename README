@@ -1,9 +1,11 @@
 Este projeto representa a resolução de um teste lançado por uma empresa para desenvolvedor JAVA
 ----------------------
 
-Resumidamente a ideia é abrir uma conexão com o ip e porta passados pela empresa, enviar e receber menssagens criptografadas até que o servidor envie sinal de fim da comunicação.
-Esse processo envolve reenvio de mensagens caso a resposta esteja com erro, além disso uma série de conversões devem ocorrer entre caracteres e hexadecimal para o preparo do envio da mensagem.
-Tem alguns outros detalhes que podem ser observados olhando o código.
+O projeto resumidamente faz:
+1 - Estabelece uma conexão com um servidor através do ip e porta fornecidos na especificação do teste;
+2 - Envia mensagens em hexadecimal com um formato especfico, onde os primeiros dois bytes são para especificar o tamanho da mensagem e o último é para verificação de erro.
+3 - Receber respostas do servidor em tempo aleatório, além disso a mensagem pode vir com erro, em caso de erros é necessário o reenvio da mensagem;
+4 - A conexão se encerra quando o servidor requisitar o fim da conexão através de uma mensagem chave.
 
 Ambiente
 ----------------------
