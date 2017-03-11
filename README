@@ -1,7 +1,19 @@
+Este projeto representa a resolução de um teste lançado por uma empresa para desenvolvedor JAVA
+----------------------
+
+Resumidamente a ideia é abrir uma conexão com o ip e porta passados pela empresa, enviar e receber menssagens criptografadas até que o servidor envie sinal de fim da comunicação.
+Esse processo envolve reenvio de mensagens caso a resposta esteja com erro, além disso uma série de conversões devem ocorrer entre caracteres e hexadecimal para o preparo do envio da mensagem.
+Tem alguns outros detalhes que podem ser observados olhando o código.
+
+Ambiente
+----------------------
 Linguagem utilizada no desenvolvimento: JAVA
 IDE utilizada: NetBeans
 Sistema operacional: Linux Mint Cinamon
 
+Executando
+-----------------------
+OBS: PARA EXECUTAR ESSE CÓDIGO É NECESSÁRIO O IP E A PORTA PARA INICIAR A COMUNICAÇÃO, ESSES DADOS SÃO FORNECIDOS NO INICÍO DO TESTE PELA EMPRESA
 Passo a passo:
 Abra o NetBeans, use a opção importar projeto especificando o projeto dentro desse arquivo zip (DeveloperTestLacunaS)
 
