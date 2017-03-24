@@ -1,21 +1,21 @@
-Este projeto representa a resolução de um teste lançado por uma empresa para desenvolvedor JAVA
+Este é um projeto desenvolvido na linguagem Java, ele tem por finalidade a resolução de um teste fornecido por uma empresa que buscava estagiários para desenvolvimento em Java. 
 ----------------------
 
-O projeto resumidamente faz:
+O teste tinha basicamente 4 etapas, são elas:
 1 - Estabelece uma conexão com um servidor através do ip e porta fornecidos na especificação do teste;
 2 - Envia mensagens em hexadecimal com um formato especfico, onde os primeiros dois bytes são para especificar o tamanho da mensagem e o último é para verificação de erro.
 3 - Receber respostas do servidor em tempo aleatório, além disso a mensagem pode vir com erro, em caso de erros é necessário o reenvio da mensagem;
 4 - A conexão se encerra quando o servidor requisitar o fim da conexão através de uma mensagem chave.
 
-Ambiente
+Ambiente de desenvolvimento
 ----------------------
 Linguagem utilizada no desenvolvimento: JAVA
 IDE utilizada: NetBeans
 Sistema operacional: Linux Mint Cinamon
 
-Executando
+Execução
 -----------------------
-OBS: PARA EXECUTAR ESSE CÓDIGO É NECESSÁRIO O IP E A PORTA PARA INICIAR A COMUNICAÇÃO, ESSES DADOS SÃO FORNECIDOS NO INICÍO DO TESTE PELA EMPRESA
+OBS: PARA EXECUTAR ESSE CÓDIGO É NECESSÁRIO O IP E A PORTA PARA INICIAR A COMUNICAÇÃO, ESSES DADOS SÃO FORNECIDOS NO INICÍO DO TESTE PELA EMPRESA, as que se encontram no código não estão mais disponíveis,
 Passo a passo:
 Abra o NetBeans, use a opção importar projeto especificando o projeto dentro desse arquivo zip (DeveloperTestLacunaS)
 
